@@ -1,0 +1,78 @@
+// textos
+.hero-text {
+    h2 {
+      font-weight: 600;
+      font-family: 'Roboto', sans-serif;
+      color: var(--txt-color);
+    }
+  }
+  
+  .hero-text-confirm {
+    .text {
+      display: flex;
+      align-items: center;
+      justify-content: left;
+  
+      p {
+        color: var(--txt-color);
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+      }
+  
+      img {
+        margin-bottom: 1rem;
+        margin-right: 10px;
+      }
+    }
+  
+    .text:nth-of-type(1) {
+      margin-top: 1rem;
+    }
+  }
+  
+  .hero-text-btn {
+    button {
+      height: auto;
+      width: auto;
+      margin-top: 1rem;
+      border: none;
+      outline: none;
+      font-size: 10pt;
+      padding: 0.8rem;
+      background: var(--bg-button);
+      color: var(--text-color-white);
+      border-radius: 10px;
+      box-shadow: 1px 1px 10px rgba(148, 140, 140, 0.548);
+      transition: all 0.3s ease-in-out;
+    }
+  
+    button:hover {
+      background: #042f74;
+    }
+  }
+  
+  // imagem
+  .imagem {
+    height: 100%;
+    width: 100%;
+  
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .hero-text-btn {
+      button {
+        width: 100%;
+      }
+    }
+  
+    .imagem {
+      img {
+        display: none;
+      }
+    }
+  }
+  

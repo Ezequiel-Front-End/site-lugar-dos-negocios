@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root{
+    --bg-color: #EBECF0;
+    --txt-color: #30455C;
+    --color-primary: #002869;
+    --bg-button: #002869;
+    --text-color-white: #fff;
+}
+
+html, body{
+    height: auto;
+    width: 100%;
+    background: var(--bg-color);
+}

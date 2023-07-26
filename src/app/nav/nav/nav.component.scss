@@ -1,0 +1,24 @@
+.logo {
+    a {
+      color: var(--color-primary);
+      font-size: 20pt;
+      font-weight: 500;
+    }
+  }
+  
+  .navbar {
+    a:hover {
+      color: var(--color-primary);
+    }
+  }
+  
+  @media screen and (min-width: 991px) {
+    .container-fluid {
+      .collapse {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+      }
+    }
+  }
+  
