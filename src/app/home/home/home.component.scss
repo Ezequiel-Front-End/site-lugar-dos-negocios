@@ -27,24 +27,74 @@
   }
   
   .hero-text-btn {
-    button {
-      height: auto;
-      width: 20%;
-      margin-top: 1rem;
-      border: none;
-      outline: none;
-      font-size: 12pt;
-      padding: 0.8rem;
-      background: var(--bg-button);
-      color: var(--text-color-white);
-      border-radius: 5px;
-      box-shadow: 1px 1px 10px rgba(148, 140, 140, 0.548);
-      transition: all 0.3s ease-in-out;
-    }
+    // button {
+    //   height: auto;
+    //   width: 20%;
+    //   margin-top: 1rem;
+    //   border: none;
+    //   outline: none;
+    //   font-size: 12pt;
+    //   padding: 0.8rem;
+    //   background: var(--bg-button);
+    //   color: var(--text-color-white);
+    //   border-radius: 5px;
+    //   box-shadow: 1px 1px 10px rgba(148, 140, 140, 0.548);
+    //   transition: all 0.3s ease-in-out;
+    // }
   
-    button:hover {
-      background: #042f74;
+    // button:hover {
+    //   background: #042f74;
+    // }
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    gap: 10px;
+    .whatsap{
+      height: 70px;
+      width: 70px;
+      background:#002869;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.548);
+      &:hover{
+        background:#002869da;
+        transform: translateY(-3px);
+      }
+      i{
+        margin-top: 5px;
+        font-size: 25pt;
+        color: white;
+      }
+
     }
+
+    .instragram{
+      height: 70px;
+      width: 70px;
+      background:#002869;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.548);
+
+      &:hover{
+        background:#002869da;
+        transform: translateY(-3px);
+      }
+
+      i{
+        margin-top: 5px;
+        font-size: 25pt;
+        color: white;
+      }
+    }
+
   }
   
   // imagem
@@ -131,8 +181,10 @@
     }
 
     .content{
+      text-align: justify;
       font-size: 15pt;
       color: var(--txt-color);
+      margin-top: 1rem;
     }
   }
 
